@@ -1,8 +1,9 @@
 import React from 'react'
+import serviceml from './clash.jpg'
 const Services = () => {
   return (
     <div className="container">
-     <img src='image/clash.jpg' height={500} width={1100} alt=""/>
+    <img src={serviceml} height={500} width={1100} style={{width:"100%"}} style2={{height:"100%"}} alt=""/>
         <h5 className="text-center" style={{paddingTop: "5%"}}>
         Features:
 <br></br>
